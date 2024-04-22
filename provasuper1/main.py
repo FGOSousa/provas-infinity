@@ -9,7 +9,7 @@ while True:
         if senhacad==senha:
             print('Acesso permitido')
             break
-
-
-
-    
+        else: 
+            print("Senha incorreta")
+    else:
+        print("Email incorreto")
